@@ -1,0 +1,34 @@
+.Banner {
+    border: 1px solid black;
+    display: flex;
+    height: 50vh;
+    margin: auto auto 1em auto;
+    position: relative;
+}
+
+.Banner img {
+    width:100%;
+   height:100%;
+}
+
+.Banner h1 {
+    position: absolute;
+    left: 10vh;
+    top: 30vh;
+    color: darkgoldenrod;
+    z-index: 10;
+    display: inline;
+}
+
+.Banner a {
+    z-index: 2;
+    text-decoration: none;
+    position: relative;
+    right: 10em;
+    width: 10000px;
+    border: 1px solid black;
+}
+
+.Banner a:visited {
+    color: black;
+}

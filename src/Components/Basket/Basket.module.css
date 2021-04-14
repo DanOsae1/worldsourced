@@ -1,0 +1,12 @@
+.Basket {
+    height: 100%;
+    width: 100em;
+    border: 1px solid black;
+}
+
+.Basket h1 {
+    color: white;
+    background-color: black;
+    height: 50%;
+    margin: 0;
+}

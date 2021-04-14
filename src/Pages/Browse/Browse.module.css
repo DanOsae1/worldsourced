@@ -1,0 +1,15 @@
+.Browse {
+    display: flex;
+}
+
+.section1 {
+    width: 20%;
+    border: 1px saddlebrown solid;
+}
+
+.section2 {
+    width: 80%;
+    border: 1px gold solid;
+    flex-wrap: wrap;
+}
+

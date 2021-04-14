@@ -1,0 +1,26 @@
+.SummaryContainer {
+    width: 100%;
+}
+
+.SummaryContainer table {
+    width: 100%;
+}
+
+.SummaryContainer tbody td {
+    padding: 5px;
+}
+
+.SummaryContainer tbody tr:nth-child(odd) {
+    background-color: #F0F0F0;
+    border-radius: 10px;
+}
+
+.SummaryImageContainer img {
+    border: 1px solid gray;
+    width: 70px;
+    height: 70px;
+}
+
+.SummaryContainer input {
+    width: 40px;
+}

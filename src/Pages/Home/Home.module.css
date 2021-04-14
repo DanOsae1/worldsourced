@@ -1,0 +1,29 @@
+.Home {
+    height: inherit;
+
+}
+
+.Home .ProductPlacement img {
+    margin: 10px;
+}
+
+.Home #Basket {
+    background-color: black;
+    color: white;
+    padding: 2vh 5em;
+    white-space: nowrap
+}
+
+.Home .Delivery {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Home .Delivery .DeliverySection {
+    width: 20%;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+
+}

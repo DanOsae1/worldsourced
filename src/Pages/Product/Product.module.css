@@ -1,0 +1,63 @@
+.Product {
+    height: inherit;
+}
+
+.Container {
+    display: flex;
+    z-index: 2;
+    position: relative;
+    color: #FFFFFF;
+    width: 100vh;
+    height: 70vh;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    flex-flow: row;
+
+}
+
+.Product .Container .Section h1, p, h5 {
+    color: black;
+}
+
+.Product .Container .Section h4 {
+    color: lightgrey;
+}
+
+.Product .Container .Section h1, h4 {
+    text-align: left;
+}
+
+.Section {
+    width: 50%;
+    flex: 1 1 auto;
+}
+
+.Section .ProductImg img {
+    height: 40vh;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.Descriptions {
+    position: relative;
+    width: 95%;
+    text-align: left;
+    border-radius: 1px;
+}
+
+.Descriptions {
+    border-bottom: 2px solid lightgrey;
+}
+
+
+.Quantity input {
+    width: 3em;
+}
+
+.Checkout {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+
+}

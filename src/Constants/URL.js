@@ -1,0 +1,5 @@
+const AUTH_ROUTES = {}
+
+const NORMAL_ROUTES = {}
+
+module.exports = {AUTH_ROUTES: AUTH_ROUTES, NORMAL_ROUTES: NORMAL_ROUTES}

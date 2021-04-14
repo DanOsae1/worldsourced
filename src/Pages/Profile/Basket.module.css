@@ -1,0 +1,45 @@
+.Basket {
+    height: inherit;
+    background: linear-gradient(180deg, #FFC0CB 50%, whitesmoke 50%);
+    display: grid;
+    place-items: center;
+}
+
+hr {
+    border-top: 1px solid #bbb;
+    width: 40em;
+    position: absolute;
+    border-radius: 5px ;
+}
+
+.BasketContainer {
+    border: 1px solid red;
+    position: relative;
+    top: 30%;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background-color: white;
+    width: 60em;
+    display: grid;
+    place-items: center;
+}
+
+.BasketContainer table {
+    width: 40em;
+    margin-top: 30px;
+
+}
+
+.BasketContainer img {
+    width: 150px;
+    height: 150px;
+}
+
+.BasketContainer td {
+    padding: 10px;
+}
+
+.BasketContainer .Quantity form {
+    width: 10px;
+}

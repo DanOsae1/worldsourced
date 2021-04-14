@@ -1,0 +1,39 @@
+.Item {
+    height: 354px;
+    width: 210px;
+    margin: 5px;
+}
+
+.Item:hover {
+    outline: 1px solid black;
+}
+
+.Item #MoreInfo {
+    display: inline;
+    z-index: 10;
+    position: relative;
+    bottom: 30px;
+    color: white;
+    padding: 1vh 5em;
+    white-space: nowrap
+}
+
+.Item .none {
+    display: none;
+}
+
+.Item #Cart {
+    background-color: black;
+    color: white;
+    padding: 1vh 5em;
+    white-space: nowrap
+}
+
+.Item img {
+    width: 210px;
+    height: 194px;
+}
+
+.Item .Details p {
+    margin: 5px;
+}
